@@ -221,6 +221,7 @@ label {
 
 .menu-item {
   margin-left: 20%;
+
   padding: 2.8rem 0;
 }
 
@@ -292,12 +293,14 @@ label {
   .menu-item {
     margin-left: 15%;
     margin-right: 20%;
+    text-align: center;
   }
 }
 @media (max-width: 768px) {
   .menu-item {
     margin-left: 15%;
     margin-right: 20%;
+    text-align: center;
   }
 }
 
