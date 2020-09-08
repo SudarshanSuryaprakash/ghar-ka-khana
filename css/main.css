@@ -287,6 +287,9 @@ label {
   .menu-icon-text {
     display: block;
   }
+  .menu-item {
+    margin-left: 15%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
