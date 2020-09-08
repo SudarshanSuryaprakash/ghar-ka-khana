@@ -256,8 +256,8 @@ label {
 
 .food-price {
   position: relative;
-  padding-left: 15px;
-  left: 90px;
+  padding-right: 15px;
+  left: 70px;
   /* background: #f0cdb8; */
 }
 
