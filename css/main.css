@@ -33,6 +33,14 @@ label {
   }
 }
 
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 250px;
+  width: 250px;
+}
+
 /* 
  * HELPER CLASSES
  */
@@ -59,10 +67,10 @@ label {
   display: block;
   width: 235px;
   height: 60px;
-  border: 1px solid #003166;
+  border: 1px solid #d45b89;
   text-align: center;
   color: #fff;
-  background: #003d7f;
+  background: #dd6d98;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
   animation: drop 2s;
@@ -78,9 +86,9 @@ label {
   display: block;
   width: 60px;
   height: 0px;
-  border: 30px solid #003d7f;
-  border-right: 20px solid #001933;
-  border-bottom-color: #003166;
+  border: 30px solid #d45b89;
+  border-right: 20px solid #d45b89;
+  border-bottom-color: #d45b89;
   border-left-color: transparent;
   transform: rotate(-5deg);
 }
@@ -88,29 +96,30 @@ label {
 .banner::after {
   left: auto;
   right: -37px;
-  border-left: 20px solid #001933;
+  border-left: 20px solid #d45b89;
   border-right: 30px solid transparent;
   transform: rotate(5deg);
 }
 
 .banner-new {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 700;
   color: #fff;
   line-height: 60px;
   position: relative;
   margin: 0 auto;
   display: block;
-  width: 335px;
-  height: 80px;
-  border: 1px solid #003166;
+  width: 235px;
+  height: 60px;
+  border: 1px solid #7d0633;
   text-align: center;
   color: #fff;
-  background: #003d7f;
+  background: #7d0633;
   border-radius: 4px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
   animation: drop 1s;
   transition: all 0.2s;
+  top: 200px;
 }
 
 .banner-new::before,
@@ -123,9 +132,9 @@ label {
   display: block;
   width: 60px;
   height: 0px;
-  border: 30px solid #003d7f;
-  border-right: 20px solid #001933;
-  border-bottom-color: #003166;
+  border: 30px solid #d45b89;
+  border-right: 20px solid #d45b89;
+  border-bottom-color: #d45b89;
   border-left-color: transparent;
   transform: rotate(-5deg);
 }
@@ -133,7 +142,7 @@ label {
 .banner-new::after {
   left: auto;
   right: -37px;
-  border-left: 20px solid #001933;
+  border-left: 20px solid #d45b89;
   border-right: 30px solid transparent;
   transform: rotate(5deg);
 }
@@ -211,6 +220,7 @@ label {
 }
 
 .menu-item {
+  margin-left: 20%;
   padding: 2.8rem 0;
 }
 
