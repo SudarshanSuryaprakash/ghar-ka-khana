@@ -287,8 +287,13 @@ label {
   .menu-icon-text {
     display: block;
   }
+}
+@media (max-width: 576px) {
+  .menu-icon-text {
+    display: block;
+  }
   .menu-item {
-    margin-left: 10%;
+    margin-left: 15%;
   }
 }
 
